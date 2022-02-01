@@ -13,7 +13,7 @@
 	color: black;
 	font-style: bo;
 }
-
+/*Home Button*/
 #home {
 	height: 60px;
 	border-bottom: 1px solid;
@@ -29,7 +29,7 @@
 	position: relative;
 	top: 10px;
 }
-
+/*About Button*/
 #about {
 	height: 60px;
 	border-bottom: 1px solid;
@@ -38,13 +38,48 @@
 
 #about_p {
 	position: relative;
-	top: -6px;
+	top: -12px;
 }
 
 #about img {
 	position: relative;
-	top: 10px;
+	top: 5px;
 }
+/*Portfolio Button*/
+#portfolio {
+	height: 60px;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+#portfolio_p {
+	position: relative;
+	top: -4px;
+}
+
+#portfolio img {
+	position: relative;
+	top: 9px;
+}
+/*Contact Button*/
+#contact {
+	height: 60px;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+#contact_p {
+	position: relative;
+	top: -4px;
+}
+
+#contact img {
+	position: relative;
+	top: 9px;
+}
+
+
+
 
 
 /*End of Sidebar*/
