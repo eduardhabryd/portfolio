@@ -104,8 +104,8 @@
 	position: absolute;
 	top: 220px;
 	left: 249px;
-	/*top: 30%;
-	left: 30%;*/
+	/*top: 30.5%;
+	left: 16.4%; */ /*Відстань фіксується по правій стороні, а не по лівій*/
 }
 /*----------Hello---------*/
 #homeTextHello {
@@ -196,6 +196,7 @@
 /*----------Header---------*/
 #aboutMeHeader {
 	position: absolute;
+	left: 250px;
 	font-family: sans-serif;
 	/*background-color: darkgray;*/
 }
