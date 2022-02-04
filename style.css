@@ -241,10 +241,63 @@
 	color: #585a6e;
 }
 /*----------Photo----------*/
+#aboutMePhoto {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#aboutMePhotoPhoto {
+	width: 440px;
+	height: 480px;
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	left: -290px;
+	top: 90px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 /*----------Text-----------*/
+#aboutMeText {
+	font-family: sans-serif;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#aboutMeText h1 {
+	font-family: sans-serif;
+	width: 630px;
+	position: relative;
+	left: 320px;
+	top: -50px;
+}
+#aboutMeText h3 {
+	font-family: sans-serif;
+	width: 630px;
+	position: relative;
+	left: 320px;
+	top: -50px;
+	font-weight: normal;
+}
+#aboutMeText p {
+	font-family: sans-serif;
+	width: 630px;
+	position: relative;
+	left: 320px;
+	top: -50px;
+	color: #575671;
+}
+.yellow {
+	color: #d9832e;
+}
 
 /*----------Table----------*/
+
 
 /*----------Button---------*/
 
