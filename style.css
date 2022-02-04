@@ -291,14 +291,41 @@
 	left: 320px;
 	top: -50px;
 	color: #575671;
+	line-height: 25px;
 }
 .yellow {
 	color: #d9832e;
 }
 
 /*----------Table----------*/
+.aboutMeTable {
+	font-family: sans-serif;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.tableBorder {
+	border-right: 1px solid;
+	padding-right: 12px;
+}
 
+#aboutMeTableL {
+	position: relative;
+	top: 235px;
+	left: 158px;
+}
 
+#aboutMeTableR {
+	position: relative;
+	top: 73px;
+	left: 500px;
+}
+table {
+	border-spacing: 10px 1rem;
+	background-color: pink;
+}
 /*----------Button---------*/
 
 /*----------------------My Skills------------------*/
