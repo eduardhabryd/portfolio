@@ -8,7 +8,7 @@
 	position: fixed;
 	height: 100%;
 	box-shadow: 0px 0px 10px #CECECA;
-	font-family: sans-serif;
+	font-family: 	sans-serif;
 	font-size: 11.5px;
 	font-weight: bold;
 	z-index: 5;	
@@ -82,15 +82,6 @@
 	position: relative;
 	top: 27px;
 }
-/*Sidebar Patch*/
-/*#sidebarPatch {
-	z-index: 3;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 95px;
-	height: 215px;
-}*/
 /*-------------------------------------End of Sidebar-------------------------------------*/
 
 
@@ -98,14 +89,24 @@
 /*--------------------------------------Home Page-----------------------------------------*/
 #homePage {
 	height: 100%;
+	z-index: 4;
 }
 /*------------------Home Page Text------------------*/
 #homePageText {
+	width: 500px;
 	position: absolute;
 	top: 220px;
 	left: 249px;
-	/*top: 30.5%;
-	left: 16.4%; */ /*Відстань фіксується по правій стороні, а не по лівій*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25.8px;
+}
+#homePageText p {
+	position: relative;
+	left: -260.5px;
 }
 /*----------Hello---------*/
 #homeTextHello {
@@ -138,6 +139,13 @@
 }
 
 /*---------------Home page buttons-------------------*/
+#homePageButtons {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 #homePageButtonWork {
 	height: 45px;
 	width: 120px;
@@ -146,6 +154,8 @@
 	left: 249px;
 	background-color: #d9832e;
 	text-align: center;
+	left: -511px;
+	top: 99px;
 }
 #homePageButtonHire {
 	height: 41px;
@@ -156,6 +166,9 @@
 	border: 2px solid #d9832e;
 	text-align: center;
 	margin-left: 30px;
+	left: -405px;
+	top: 99px;
+
 }
 
 #homePageButtonWork a {
@@ -186,21 +199,47 @@
 /*----------------------About me------------------*/
 #aboutMe {
 	width: 100%;
-	height: 700px;
-	z-index: 1;
-	position: relative;
-	background-color: pink;
+	height: 821px;
+	position: absolute;
+	background-color: #eaedf2;
 	margin-top: 0.4%;
+	margin-left: -1%;
+	left: 1%;
 }
 
 /*----------Header---------*/
 #aboutMeHeader {
-	position: absolute;
-	left: 250px;
 	font-family: sans-serif;
-	/*background-color: darkgray;*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
+#aboutMeHeaderHeader {
+	position: relative;
+	left: -305px;
+	top: -240px;
+	font-size: 40px;
+}
+
+#aboutMeHeaderBorder {
+	width: 55px;
+	border-top: 2px solid #d9832e;
+	position: relative;
+	left: -305px;
+	top: -260px;
+}
+
+#aboutMeHeaderText {
+	width: 400px;
+	position: relative;
+	border: 0px solid #d9832e;
+	left: -305px;
+	top: -260px;
+	color: #585a6e;
+}
 /*----------Photo----------*/
 
 /*----------Text-----------*/
