@@ -1,44 +1,38 @@
 /*-------------------------------Sidebar-------------------------------------*/
+
 .sidebar {
 	position: fixed;
-	width: 6%;
+	width: 95px;
+	font-size: 12px;
 	height: 100%;
-	/*background-color: hotpink;*/
-	left: 0px;
 	top: 0px;
-	box-shadow: 0px 0px 10px #D4d4cf;
-	font-size: 70%;
-	font-weight: bold;
-}
-
-.sidebar a {
-	width: 2%;
-	font-size: 100%;
-	text-decoration: none;
-	color: black;
+	left: 0px;
 	font-family: sans-serif;
-}
-
-.sideButton {
-	height: 15%;
-	align-content: center;
-	margin-top: 5%;
 	text-align: center;
-	box-shadow: 0.4px 0.4px 1px #D4d4cf;
+	box-shadow: 1px 1px 10px #Dcdcd7;
 }
 
 .sidebar img {
-	width: 25%;
-	height: 20%;
-	position: relative;
-	top: 30%;
+	width: 25px;
+	height: 20px;
+}
+.sidebar ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.sidebar a {
+	text-decoration: none;
+
+}
+.sidebar li {
+	box-shadow: 0.4px 0.4px 1px #Dcdcd7;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.sidebar p {
+	color: black;
 }
 
-.sidebar p {
-	margin-top: 20%;
-	position: relative;
-	top: 20%;
-}
 /*-------------------------------End of Sidebar-------------------------------------*/
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -46,12 +40,20 @@
 /*----------------------------------Home Page---------------------------------------*/
 
 .homePage {
+	position: absolute;
+	height: 100%;
+	width: 83%;
 	background-color: pink;
-	position: relative;
-	top: 30%;
-	left: 20%;
+	left: 15%;
+	top: 0%;
+	font-family: sans-serif;
 }
 
+.homeText {
+	position: relative;
+	top: 32%;
+	left: 2%;
+}
 
 
 
