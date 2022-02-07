@@ -1,334 +1,59 @@
-
-
-/*------------------------------------Sidebar---------------------------------------------*/
-#sidebar {
-	width: 95px;
-	top: 0px;
-	left: 0px;
+/*-------------------------------Sidebar-------------------------------------*/
+.sidebar {
 	position: fixed;
+	width: 6%;
 	height: 100%;
-	box-shadow: 0px 0px 10px #CECECA;
-	font-family: 	sans-serif;
-	font-size: 11.5px;
+	/*background-color: hotpink;*/
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 0px 10px #D4d4cf;
+	font-size: 70%;
 	font-weight: bold;
-	z-index: 5;	
-	background-color: white;
 }
-#sidebar a {
+
+.sidebar a {
+	width: 2%;
+	font-size: 100%;
 	text-decoration: none;
 	color: black;
+	font-family: sans-serif;
 }
-/*Home Button*/
-#home {
-	height: 100px;
+
+.sideButton {
+	height: 15%;
+	align-content: center;
+	margin-top: 5%;
 	text-align: center;
-	position: relative;
-	top: 30px;
-	box-shadow: 0px 0.15px gray;
-}
-#home_p {
-	position: relative;
-	top: 10px;
-}
-#home img {
-	position: relative;
-	top: 15px;
-}
-/*About Button*/
-#about {
-	height: 100px;
-	text-align: center;
-	position: relative;
-	top: 30px;
-	box-shadow: 0px 0.15px gray;
-}
-#about_p {
-	position: relative;
-	top: 15px;
-}
-#about img {
-	position: relative;
-	top: 25px;
-}
-/*Portfolio Button*/
-#portfolio {
-	height: 100px;
-	text-align: center;
-	position: relative;
-	top: 30px;
-	box-shadow: 0px 0.15px gray;
-}
-#portfolio_p {
-	position: relative;
-	top: 23px;
-}
-#portfolio img {
-	position: relative;
-	top: 29px;
-}
-/*Contact Button*/
-#contact {
-	height: 100px;
-	text-align: center;
-	position: relative;
-	top: 30px;
-	box-shadow: 0px 0.15px gray;
-}
-#contact_p {
-	position: relative;
-	top: 21px;
-}
-#contact img {
-	position: relative;
-	top: 27px;
-}
-/*-------------------------------------End of Sidebar-------------------------------------*/
-
-
-
-/*--------------------------------------Home Page-----------------------------------------*/
-#homePage {
-	height: 100%;
-	z-index: 4;
-}
-/*------------------Home Page Text------------------*/
-#homePageText {
-	width: 500px;
-	position: absolute;
-	top: 220px;
-	left: 249px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    margin-top: 25.8px;
-}
-#homePageText p {
-	position: relative;
-	left: -260.5px;
-}
-/*----------Hello---------*/
-#homeTextHello {
-	font-family: sans-serif;
-	font-size: 20px;
-}
-/*--------Edward----------*/
-#homeTextEdward {
-	font-family: sans-serif;
-	font-size: 60px;
-	font-weight: bold;
-	position: relative;
-	top: -50px;
-}
-/*-------- I am -----------*/
-#homeTextI {
-	font-family: sans-serif;
-	font-size: 22px;
-	position: relative;
-	top: -100px;
-}
-/*---------Lorem-----------*/
-#homeTextLorem {
-	color: gray;
-	font-family: sans-serif;
-	font-size: 16px;
-	position: relative;
-	top: -100px;
-	width: 600px;
+	box-shadow: 0.4px 0.4px 1px #D4d4cf;
 }
 
-/*---------------Home page buttons-------------------*/
-#homePageButtons {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-#homePageButtonWork {
-	height: 45px;
-	width: 120px;
-	position: absolute;
-	top: 460px;
-	left: 249px;
-	background-color: #d9832e;
-	text-align: center;
-	left: -511px;
-	top: 99px;
-}
-#homePageButtonHire {
-	height: 41px;
-	width: 120px;
-	position: absolute;
-	top: 460px;
-	left: 355px;
-	border: 2px solid #d9832e;
-	text-align: center;
-	margin-left: 30px;
-	left: -405px;
-	top: 99px;
-
-}
-
-#homePageButtonWork a {
-	text-decoration: none;
-}
-#homePageButtonHire a {
-	text-decoration: none;
-}
-#homePageButtonWork p {
-	color: white;
-	font-family: sans-serif;
-	font-size: 14px;
-}
-#homePageButtonHire p {
-	color: #d9832e;
-	font-family: sans-serif;
-	font-size: 14px;
-}
-/*-----------------End of Home page buttons-----------*/
-
-
-/**/
-/*---------------------------------------------End of Home Page---------------------------------------*/
-
-
-/*---------------------------------------------About ME-----------------------------------------------*/
-
-/*----------------------About me------------------*/
-#aboutMe {
-	width: 100%;
-	height: 821px;
-	position: absolute;
-	background-color: #eaedf2;
-	margin-top: 0.4%;
-	margin-left: -1%;
-	left: 1%;
-}
-
-/*----------Header---------*/
-#aboutMeHeader {
-	font-family: sans-serif;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-#aboutMeHeaderHeader {
+.sidebar img {
+	width: 25%;
+	height: 20%;
 	position: relative;
-	left: -305px;
-	top: -240px;
-	font-size: 40px;
+	top: 30%;
 }
 
-#aboutMeHeaderBorder {
-	width: 55px;
-	border-top: 2px solid #d9832e;
+.sidebar p {
+	margin-top: 20%;
 	position: relative;
-	left: -305px;
-	top: -260px;
+	top: 20%;
 }
+/*-------------------------------End of Sidebar-------------------------------------*/
 
-#aboutMeHeaderText {
-	width: 400px;
-	position: relative;
-	border: 0px solid #d9832e;
-	left: -305px;
-	top: -260px;
-	color: #585a6e;
-}
-/*----------Photo----------*/
-#aboutMePhoto {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
+/*---------------------------------------------------------------------------------------------------*/
 
-#aboutMePhotoPhoto {
-	width: 440px;
-	height: 480px;
-	background-color: white;
-	border-radius: 10px;
-	position: relative;
-	left: -290px;
-	top: 90px;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+/*----------------------------------Home Page---------------------------------------*/
 
-/*----------Text-----------*/
-#aboutMeText {
-	font-family: sans-serif;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-#aboutMeText h1 {
-	font-family: sans-serif;
-	width: 630px;
-	position: relative;
-	left: 320px;
-	top: -50px;
-}
-#aboutMeText h3 {
-	font-family: sans-serif;
-	width: 630px;
-	position: relative;
-	left: 320px;
-	top: -50px;
-	font-weight: normal;
-}
-#aboutMeText p {
-	font-family: sans-serif;
-	width: 630px;
-	position: relative;
-	left: 320px;
-	top: -50px;
-	color: #575671;
-	line-height: 25px;
-}
-.yellow {
-	color: #d9832e;
-}
-
-/*----------Table----------*/
-.aboutMeTable {
-	font-family: sans-serif;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-.tableBorder {
-	border-right: 1px solid;
-	padding-right: 12px;
-}
-
-#aboutMeTableL {
-	position: relative;
-	top: 235px;
-	left: 158px;
-}
-
-#aboutMeTableR {
-	position: relative;
-	top: 73px;
-	left: 500px;
-}
-table {
-	border-spacing: 10px 1rem;
+.homePage {
 	background-color: pink;
+	position: relative;
+	top: 30%;
+	left: 20%;
 }
-/*----------Button---------*/
-
-/*----------------------My Skills------------------*/
 
 
-/*---------------------------------------------End of About ME----------------------------------------*/
+
+
+/*--------------------------------End of Home Page----------------------------------*/
+

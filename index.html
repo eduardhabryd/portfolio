@@ -1,150 +1,60 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Portfolio</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!---------------------------------------- Sidebar --------------------------------------------------->
-	<div id="sidebar"> 
-			<!------------------------- Home Button ---------------->
+	<div class="containerSidebar">
+		<!--------------------------------------- Sidebar --------------------------------------------------->
+		<div class="sidebar">
+			<!---------------Home----------------------->
 			<a href="home">
-				<div id="home">
-					<img src="images/home_icon.png" alt="Home" width="30" height="25">
-					<p id="home_p">HOME</p>
+				<div class="sideButton"> 
+					<img src="images/home.png">
+					<p>HOME</p>
 				</div>
 			</a>
-			<!------------------------ About Button ---------------->
+			<!------------------About------------------>
 			<a href="about">
-				<div id="about">
-					<img src="images/about_me.png" alt="About Me" width="30" height="32">
-					<p id="about_p">ABOUT ME</p>
+				<div class="sideButton"> 
+					<img src="images/about.png">
+					<p>ABOUT ME</p>
 				</div>
 			</a>
-			<!--------------------- Portfolio Button --------------->
+			<!--------------Portfolio------------------>
 			<a href="portfolio">
-				<div id="portfolio">
-					<img src="images/portfolio.png" alt="About Me" width="30" height="25">
-					<p id="portfolio_p">PORTFOLIO</p>
+				<div class="sideButton"> 
+					<img src="images/portfolio.png">
+					<p>PORTFOLIO</p>
 				</div>
 			</a>
-			<!------------------- Contact Button ------------------->
-			<a href="contact">
-				<div id="contact">
-					<img src="images/contact.png" alt="About Me" width="30" height="30">
-					<p id="contact_p">CONTACT</p>
+			<!---------------Contact------------------->
+			<a href="home">
+				<div class="sideButton"> 
+					<img src="images/contact.png">
+					<p>CONTACT</p>
 				</div>
 			</a>
+		</div>
+		<!---------------------------------------End of Sidebar --------------------------------------------->
+		<!---------------------------------------------------------------------------------------------------------------------->
+		<!----------------------------------------------Home Page-------------------------------------------->
 	</div>
-<!----------------------------------------- End Sidebar --------------------------------------------->
-
-<!----------------------------------------------- Home Page ----------------------------------------->
-	<div id="homePage">
-		<!------------- Home Page Text ------------------>
-		<div id="homePageText">
-			<p id="homeTextHello">Hello there..</p>
-			<p id="homeTextEdward">Edward Gabrid</p>
-			<p id="homeTextI">I Am Passionate JS Developer</p>
-			<p id="homeTextLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
-		<!-------------- Home Page Buttons ------------->
-		<div id="homePageButtons">
-			<a href="myWork"><div id="homePageButtonWork"><p>MY WORK</p></div></a>
-			<a href="hireMe"><div id="homePageButtonHire"><p>HIRE ME</p></div></a>
-		</div>
-	</div>
-<!---------------------------------------------- End Home Page -------------------------------------->
-
-
-<!----------------------------------------- About me ---------------------------------------------------->
-	
-	<!----------------- About me ------------------->
-	<div id="aboutMe">
-		<!--------- Header -------->
-		<div id="aboutMeHeader">
-			<h1 id="aboutMeHeaderHeader">ABOUT ME</h1>
-			<p id="aboutMeHeaderBorder"></p>
-			<p id="aboutMeHeaderText">A TRAINEE WEB & JS DEVELOPER BASED IN LVIV</p>
-		</div>
-		<!--------- Photo -------->
-		<div id="aboutMePhoto">
-			<div id="aboutMePhotoPhoto"><!-- <img src="" alt="Me"> --></div>
-		</div>
-		<!--------- Text -------->
-		<div id="aboutMeText">
-			<h1>I'M Edward Gabrid</h1>
-			<h3>A Trainee <span class="yellow">Web & JS</span> developer based in <span class="yellow">Lviv</span></h3>
-			<p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio</p>
-		</div>
-		<!--------- Table -------->
-		<div class="aboutMeTable">
-			<!-- Table left -->
-			<div id="aboutMeTableL">
-				<table>
-				<tr>
-					<td class="tableBorder">Birthday</td>
-					<td>29th august 2001</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Age</td>
-					<td>20</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Residence</td>
-					<td>Ukraine</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Address</td>
-					<td>Sorochinska street 8, Lviv</td>
-				</tr>
-			</table>
+	<div class="containerHomePage">
+		<div class="homePage">
+			<!--------------Home page text--------------->
+			<div class="homeText">
+				<h3>Hello there..</h3>
+				<h1>Tony Smith</h1>
+				<h2>I am a passionate Web & JS Developer</h2>
+				<p>The namics of how users interact with interactive elements within a user interface flow chart based on container proportion</p>
 			</div>
-			<!-- Table right -->
-			<div id="aboutMeTableR">
-				<table>
-				<tr>
-					<td class="tableBorder">E-mail</td>
-					<td>work.gabrid@gmail.com</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Phone</td>
-					<td>+380985281490</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Skype</td>
-					<td>eduard.gabrid</td>
-				</tr>
-				<tr>
-					<td class="tableBorder">Freelance</td>
-					<td>Availiable</td>
-				</tr>
-			</table>
-			</div>
+			<!--------------Home page buttons--------------->	
 		</div>
-		<!--------- Button -------->
-		<a href="downloadCV"><div id="aboutMeButton"></div></a>
 	</div>
-	
-	<!----------------- My Skills ------------------->
-	<div id="mySkills">
-		
-	</div>
-
-<!--------------------------------------End of About me ------------------------------------------------->
-	
-
-
-
-
-
-
-
-
-
-
-	<script src="script.js"></script>
+		<!---------------------------------------End of Home Page-------------------------------------------->
 </body>
 </html>
