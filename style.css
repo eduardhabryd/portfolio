@@ -40,13 +40,22 @@
 /*---------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------Home Page---------------------------------------*/
-#homePage {
+#containerHome {
 	position: absolute;
 	top: 0px;
 	height: 100%;
-	/*background-color: pink;*/
-	left: 16.8%;
+}
+
+#homePage {
 	font-family: sans-serif;
+	width: 1020px;
+	/*centering*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /*centering*/
 }
 
 #homeText {
@@ -67,13 +76,14 @@
 #homeText p {
 	width: 60%;
 	color: #3c383f;
+	line-height: 150%;
 }
 
 /*-------------Home Buttons----------------*/
 #homeButtons {
 	position: relative;
 	top: 35%;
-	margin-top: 3%;
+	margin-top: 4%;
 	font-size: 90%;
 	font-weight: bold;
 	font-family: sans-serif;
@@ -120,14 +130,21 @@
 }
 
 #aboutMe {
-	position: absolute;
-	left: 16.8%;
-	width: 83.2%;
 	font-family: sans-serif;
+	width: 1020px;
+	/*centering*/
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    /*centering*/
 }
 
 #aboutHeader {
-
+	position: absolute;
+	top: 30%;
 }
 
 /*----------------------------------End of About Me----------------------------color: #5b5e69;------#d9832e-----*/
