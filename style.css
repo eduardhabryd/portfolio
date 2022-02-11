@@ -123,7 +123,7 @@
 	top: 100%;
 	left: 0px;
 	width: 100%;
-	height: 100%;
+	height: 850px;
 	margin-right: 0px;
 	margin-left: 0px;
 	background-color: #eaedf2;
@@ -134,17 +134,117 @@
 	width: 1020px;
 	/*centering*/
 	position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    background-color: pink;
     /*centering*/
 }
 
+/*-------------Header----------------*/
+
 #aboutHeader {
-	position: absolute;
-	top: 30%;
+	position: relative;
+	top: -0.8rem;
 }
 
+#aboutHeader h1 {
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+#aboutHeader p {
+	width: 50px;
+	border-top: 2px solid #d9832e;
+	margin-top: -9px;
+}
+
+#aboutHeader h3 {
+	font-weight: normal;
+	font-size: 13px;
+	letter-spacing: 0.15rem;
+	color: #505d69;
+}
+/*-------------Body----------------*/
+
+#aboutBody {
+	position: relative;
+	top: 0px;
+	float: right;
+	left: 100px;
+	top: 30px;
+}
+
+#aboutBody h3 {
+	font-weight: normal;
+}
+
+#aboutBody p {
+	width: 600px;
+	line-height: 23px;
+	color: #575667;
+}
+
+/*-------------Image---------------*/
+
+#aboutImage {
+	width: 450px;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	top: 145px;
+	border-radius: 5px;
+}
+
+/*-------------Table---------------*/
+#aboutBody table {
+	font-size: 15px;
+	border-spacing: 5px 1rem;
+	position: relative;
+	left: -5px;
+	margin-right: 10px;
+
+}
+
+#tableRight {
+	float: right;
+	position: relative;
+	top: -160px;
+	left: -20px;
+	transform: translate(-30px);
+}
+
+.tableBorder {
+	border-right: 1px solid #575667;
+	padding-right: 15px;
+}
+
+.rightColon {
+	color: #575667;
+	padding-left: 15px;
+}
+
+/*-------------Table---------------*/
+
+#aboutBody a {
+	text-decoration: none;
+}
+
+#downloadCv p {
+	color: white;
+	position: relative;
+	top: 12px;
+	left: 22px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#downloadCv {
+	background-color: #d9832e;
+	width: 150px;
+	height: 45px;
+	position: relative;
+	top: 20px;
+
+}
 /*----------------------------------End of About Me----------------------------color: #5b5e69;------#d9832e-----*/
