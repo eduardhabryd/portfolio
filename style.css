@@ -1,38 +1,37 @@
 /*-------------------------------Sidebar-------------------------------------*/
 
 .sidebar {
-	position: fixed;
-	width: 95px;
-	font-size: 12px;
-	height: 100%;
-	top: 0px;
-	left: 0px;
-	font-family: sans-serif;
-	text-align: center;
-	box-shadow: 1px 1px 10px #Dcdcd7;
-	z-index: 5;
-	background-color: white;
+  position: fixed;
+  width: 95px;
+  font-size: 12px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 1px 1px 10px #dcdcd7;
+  z-index: 5;
+  background-color: white;
 }
 
 .sidebar img {
-	width: 25px;
-	height: 20px;
+  width: 25px;
+  height: 20px;
 }
 .sidebar ul {
-	list-style-type: none;
-	padding-left: 0px;
+  list-style-type: none;
+  padding-left: 0px;
 }
 .sidebar a {
-	text-decoration: none;
-
+  text-decoration: none;
 }
 .sidebar li {
-	box-shadow: 0.4px 0.4px 1px #Dcdcd7;
-	padding-top: 25px;
-	padding-bottom: 15px;
+  box-shadow: 0.4px 0.4px 1px #dcdcd7;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 .sidebar p {
-	color: black;
+  color: black;
 }
 
 /*-------------------------------End of Sidebar-------------------------------------*/
@@ -41,75 +40,74 @@
 
 /*----------------------------------Home Page---------------------------------------*/
 #containerHome {
-	position: absolute;
-	top: 0px;
-	height: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
 }
 
 #homePage {
-	font-family: sans-serif;
-	width: 1020px;
-	/*centering*/
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /*centering*/
+  font-family: sans-serif;
+  width: 1020px;
+  /*centering*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /*centering*/
 }
 
 #homeText {
-	position: relative;
-	top: 33.3%;
+  position: relative;
+  top: 33.3%;
 }
 
 #homeText h1 {
-	font-size: 350%;
-	margin-top: -1.1%;
+  font-size: 350%;
+  margin-top: -1.1%;
 }
 
 #homeText h2 {
-	font-size: 125%;
-	margin-top: -2.7%;
+  font-size: 125%;
+  margin-top: -2.7%;
 }
 
 #homeText p {
-	width: 60%;
-	color: #3c383f;
-	line-height: 150%;
+  width: 60%;
+  color: #3c383f;
+  line-height: 150%;
 }
 
 /*-------------Home Buttons----------------*/
 #homeButtons {
-	position: relative;
-	top: 35%;
-	margin-top: 4%;
-	font-size: 90%;
-	font-weight: bold;
-	font-family: sans-serif;
+  position: relative;
+  top: 35%;
+  margin-top: 4%;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 #homeButtons a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-
 #leftButton {
-	color: white;
-	text-align: center;
-	background-color: #d9832e;
-	display: inline;
-	padding: 1.7% 3% 1.7% 3%;
-	margin-right: 1.5%;
+  color: white;
+  text-align: center;
+  background-color: #d9832e;
+  display: inline;
+  padding: 1.7% 3% 1.7% 3%;
+  margin-right: 1.5%;
 }
 
 #rightButton {
-	color: #d9832e;
-	text-align: center;
-	background-color: #d9832e;
-	display: inline;
-	padding: 1.5% 3.2% 1.5% 3.2%;
-	border: 2px solid #d9832e;
-	background-color: white;
+  color: #d9832e;
+  text-align: center;
+  background-color: #d9832e;
+  display: inline;
+  padding: 1.5% 3.2% 1.5% 3.2%;
+  border: 2px solid #d9832e;
+  background-color: white;
 }
 
 /*--------------------------------End of Home Page----------------------------------*/
@@ -119,132 +117,341 @@
 /*----------------------------------About Me---------------------------------------*/
 
 #containerAbout {
-	position: absolute;
-	top: 100%;
-	left: 0px;
-	width: 100%;
-	height: 850px;
-	margin-right: 0px;
-	margin-left: 0px;
-	background-color: #eaedf2;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 850px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #eaedf2;
 }
 
 #aboutMe {
-	font-family: sans-serif;
-	width: 1020px;
-	/*centering*/
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /*centering*/
+  font-family: sans-serif;
+  width: 1020px;
+  /*centering*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /*centering*/
 }
 
 /*-------------Header----------------*/
 
 #aboutHeader {
-	position: relative;
-	top: -0.8rem;
+  position: relative;
+  top: -0.8rem;
 }
 
 #aboutHeader h1 {
-	font-size: 32px;
-	font-weight: bolder;
+  font-size: 32px;
+  font-weight: bolder;
 }
 
 #aboutHeader p {
-	width: 50px;
-	border-top: 2px solid #d9832e;
-	margin-top: -9px;
+  width: 50px;
+  border-top: 2px solid #d9832e;
+  margin-top: -9px;
 }
 
 #aboutHeader h3 {
-	font-weight: normal;
-	font-size: 13px;
-	letter-spacing: 0.15rem;
-	color: #505d69;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.15rem;
+  color: #505d69;
 }
 /*-------------Body----------------*/
 
 #aboutBody {
-	position: relative;
-	top: 0px;
-	float: right;
-	left: 100px;
-	top: 30px;
+  position: relative;
+  top: 0px;
+  float: right;
+  left: 100px;
+  top: 30px;
 }
 
 #aboutBody h3 {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 #aboutBody p {
-	width: 600px;
-	line-height: 23px;
-	color: #575667;
+  width: 600px;
+  line-height: 23px;
+  color: #575667;
 }
 
 /*-------------Image---------------*/
 
 #aboutImage {
-	width: 450px;
-	height: 500px;
-	background-color: white;
-	position: absolute;
-	top: 145px;
-	border-radius: 5px;
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 145px;
+  border-radius: 5px;
 }
 
 /*-------------Table---------------*/
 #aboutBody table {
-	font-size: 15px;
-	border-spacing: 5px 1rem;
-	position: relative;
-	left: -5px;
-	margin-right: 10px;
-
+  font-size: 15px;
+  border-spacing: 5px 1rem;
+  position: relative;
+  left: -5px;
+  margin-right: 10px;
 }
 
 #tableRight {
-	float: right;
-	position: relative;
-	top: -160px;
-	left: -20px;
-	transform: translate(-30px);
+  float: right;
+  position: relative;
+  top: -160px;
+  left: -20px;
+  transform: translate(-30px);
 }
 
 .tableBorder {
-	border-right: 1px solid #575667;
-	padding-right: 15px;
+  border-right: 1px solid #575667;
+  padding-right: 15px;
 }
 
 .rightColon {
-	color: #575667;
-	padding-left: 15px;
+  color: #575667;
+  padding-left: 15px;
 }
 
 /*-------------Table---------------*/
 
 #aboutBody a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #downloadCv p {
-	color: white;
-	position: relative;
-	top: 12px;
-	left: 22px;
-	font-size: 14px;
-	font-weight: bold;
+  color: white;
+  position: relative;
+  top: 12px;
+  left: 22px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #downloadCv {
-	background-color: #d9832e;
-	width: 150px;
-	height: 45px;
-	position: relative;
-	top: 20px;
-
+  background-color: #d9832e;
+  width: 150px;
+  height: 45px;
+  position: relative;
+  top: 20px;
 }
-/*----------------------------------End of About Me----------------------------color: #5b5e69;------#d9832e-----*/
+
+.spanColor {
+  color: #d9832e;
+}
+/*----------------------------------End of About Me---------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------My Skills---------------------------------------*/
+
+.main {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+}
+
+.containerSkills {
+  height: 590px;
+  position: relative;
+}
+
+.skills {
+  font-family: sans-serif;
+  width: 1020px;
+  height: 500px;
+  /*centering*/
+  position: absolute;
+  top: 48.3%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: pink;
+  /*centering*/
+}
+
+.skillsHeader {
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.skillsHeader h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.skillsHeader p {
+  width: 50px;
+  border-top: 3px solid #d9832e;
+  margin-top: -9px;
+}
+
+.skillsHeader h3 {
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.15rem;
+  color: #505d69;
+}
+
+/*-------------skills describe---------------*/
+
+.skillsDescrive {
+  width: 500px;
+}
+
+.baseline {
+  height: 5px;
+  background-color: #d9832e;
+  width: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.line {
+  height: 5px;
+  background-color: lightgray;
+  width: 500px;
+  position: relative;
+  top: 5px;
+}
+
+.skillsDescribe p {
+  margin-bottom: 0px;
+}
+
+.percentage1 {
+  color: #5b5e69;
+  position: relative;
+  left: 280px;
+}
+
+.percentage2 {
+  color: #5b5e69;
+  position: relative;
+  left: 240px;
+}
+
+.percentage3 {
+  color: #5b5e69;
+  position: relative;
+  left: 170px;
+}
+
+.percentage4 {
+  color: #5b5e69;
+  position: relative;
+  left: 148px;
+}
+
+.percentage5 {
+  color: #5b5e69;
+  position: relative;
+  left: 100px;
+}
+
+.percentage6 {
+  color: #5b5e69;
+  position: relative;
+  left: 140px;
+}
+
+.baseline1 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 400px;
+  position: relative;
+}
+
+.baseline2 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 350px;
+  position: relative;
+}
+
+.baseline3 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 300px;
+  position: relative;
+}
+
+.baseline4 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 250px;
+  position: relative;
+}
+
+.baseline5 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 200px;
+  position: relative;
+}
+
+.baseline6 {
+  height: 5px;
+  background-color: #d9832e;
+  width: 375px;
+  position: relative;
+}
+
+/*-------------skills fynny---------------*/
+
+.skillsFunny {
+  float: right;
+  position: relative;
+  top: -232px;
+  left: -200px;
+}
+
+.skillsFunny div {
+  text-align: center;
+  width: 206px;
+  height: 88px;
+  border: 2px solid #d9832e;
+  border-radius: 5px;
+  /* position: relative;
+  top: -250px;
+  left: -250px; */
+}
+
+.hoursCourses {
+  position: relative;
+  top: -184px;
+  left: 230px;
+}
+
+.linesCode {
+  position: relative;
+  top: -164px;
+  left: 230px;
+}
+.cupTea {
+  position: relative;
+}
+
+.nerveCells {
+  position: relative;
+  top: 20px;
+}
+
+.skillsFunny p {
+  width: 150px;
+  position: relative;
+  top: 10px;
+}
+
+/*----------------------------------End of My Skills-----------------------color: #5b5e69;------#d9832e----------------*/
