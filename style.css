@@ -281,6 +281,8 @@
   /*centering*/
 }
 
+/*-------------skills header---------------*/
+
 .skillsHeader {
   position: relative;
   margin-bottom: 52px;
@@ -464,4 +466,162 @@
   top: 22px;
   left: 15px;
 }
-/*----------------------------------End of My Skills-----------------------color: #5b5e69;------#d9832e----------------*/
+/*----------------------------------End of My Skills---------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------Portfolio---------------------------------------*/
+
+.containerPortfolio {
+  height: 700px;
+  position: relative;
+  background-color: #eaedf2;
+}
+
+.portfolio {
+  font-family: sans-serif;
+  width: 1020px;
+  height: 500px;
+  /*centering*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* background-color: pink; */
+  /*centering*/
+}
+
+/*-------------Portfolio Header---------------*/
+
+.portfolioHeader {
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.portfolioHeader h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.portfolioHeader p {
+  width: 50px;
+  border-top: 3px solid #d9832e;
+  margin-top: -9px;
+}
+
+.portfolioHeader h3 {
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.15rem;
+  color: #505d69;
+}
+
+/*-------------Portfolio Works---------------*/
+.latestWorks a {
+  display: block;
+  width: 500px;
+  height: 300px;
+}
+.works {
+  width: 500px;
+  height: 300px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 30px lightgrey;
+}
+
+.thisSite {
+  background-image: url(images/thisSite.png);
+  background-position: center;
+  background-size: 633px 300px;
+  background-repeat: no-repeat;
+}
+/*----------------------------------End of Portfolio---------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------Contact---------------------------------------*/
+
+.containerContact {
+  height: 700px;
+  position: relative;
+}
+
+.contact {
+  font-family: sans-serif;
+  width: 1020px;
+  height: 500px;
+  /*centering*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* background-color: pink; */
+  /*centering*/
+}
+
+/*-------------Contact Header---------------*/
+
+.contactHeader {
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.contactHeader h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.contactHeader p {
+  width: 50px;
+  border-top: 3px solid #d9832e;
+  margin-top: -9px;
+}
+
+.contactHeader h3 {
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.15rem;
+  color: #505d69;
+}
+
+/*-------------Contact Form---------------*/
+
+/*-------------Contact Data---------------*/
+.contactData {
+  float: right;
+  position: relative;
+  left: 80px;
+  top: -20px;
+}
+.contactData div {
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 30px lightgrey;
+}
+.contactData h3 {
+  font-size: 16px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.contactData p {
+  font-size: 15px;
+  color: #5b5e69;
+  position: relative;
+  top: 25px;
+  left: 50px;
+}
+
+.contactData img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 25px;
+}
+/*----------------------------------End of contact-----------------------color: #5b5e69;------#d9832e----------------*/
