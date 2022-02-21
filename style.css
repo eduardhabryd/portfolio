@@ -626,9 +626,42 @@
 .contactForm h3 {
   position: relative;
   top: 20px;
-  left: 30px;
+  left: 40px;
+  margin-bottom: 40px;
 }
 
+.inputName {
+  width: 290px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.inputEmail {
+  width: 290px;
+  margin-left: 20px;
+}
+
+.inputSubject {
+  margin-left: 40px;
+  margin-bottom: 30px;
+  width: 610px;
+}
+
+.inputMessage {
+  margin-left: 40px;
+  width: 610px;
+  height: 70px;
+}
+
+.inputButton {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #d9832e;
+}
 /*-------------Contact Data---------------*/
 .contactData {
   float: right;
@@ -665,4 +698,5 @@
   top: 30px;
   left: 25px;
 }
+
 /*----------------------------------End of contact-----------------------color: #5b5e69;------#d9832e----------------*/
