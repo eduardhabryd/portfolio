@@ -546,8 +546,8 @@
   height: 300px;
 }
 .works {
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
   border-radius: 7px;
   box-shadow: 0px 0px 30px lightgrey;
 }
@@ -555,8 +555,28 @@
 .thisSite {
   background-image: url(images/thisSite.png);
   background-position: center;
-  background-size: 633px 300px;
+  background-size: 470px auto;
   background-repeat: no-repeat;
+}
+
+.guessNumber {
+  background-image: url(images/guessNumber.png);
+  background-position: center;
+  background-size: 470px auto;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -300px;
+  left: 370px;
+}
+
+.pigGame {
+  background-image: url(images/pigGame.png);
+  background-position: center;
+  background-size: 470px auto;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -600px;
+  left: 740px;
 }
 /*----------------------------------End of Portfolio---------------------------------------*/
 

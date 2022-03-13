@@ -14,25 +14,25 @@
       <!--------------------------------------- Sidebar --------------------------------------------------->
       <div class="sidebar">
         <ul>
-          <a href="home">
+          <a href="#home">
             <li>
               <img src="images/home.png" alt="" />
               <p>HOME</p>
             </li>
           </a>
-          <a href="about">
+          <a href="#containerAbout">
             <li>
               <img src="images/about.png" alt="" />
               <p>ABOUT ME</p>
             </li>
           </a>
-          <a href="portfolio">
+          <a href="#portfolio">
             <li>
               <img src="images/portfolio.png" alt="" />
               <p>PORTFOLIO</p>
             </li>
           </a>
-          <a href="contact">
+          <a href="#contact">
             <li>
               <img src="images/contact.png" alt="" />
               <p>CONTACT</p>
@@ -40,12 +40,12 @@
           </a>
         </ul>
       </div>
-      <!---------------------------------------End of Sidebar --------------------------------------------->
-      <!---------------------------------------------------------------------------------------------------------------------->
-      <!----------------------------------------------Home Page-------------------------------------------->
     </div>
+    <!---------------------------------------End of Sidebar --------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------Home Page-------------------------------------------->
     <div class="imageHome"><img src="images/homeBackground.png" alt="" /></div>
-    <div class="containerHome">
+    <div class="containerHome" id="home">
       <div id="homePage">
         <!--------------Home page text--------------->
         <div id="homeText">
@@ -59,8 +59,8 @@
         </div>
         <!--------------Home page buttons--------------->
         <div id="homeButtons">
-          <a href="myWork" id="leftButton">MY WORK</a>
-          <a href="hireMe" id="rightButton">HIRE ME</a>
+          <a href="#portfolio" id="leftButton">MY WORK</a>
+          <a href="#contact" id="rightButton">HIRE ME</a>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@
       <!----------------------------------------------End of My skills-------------------------------------------->
       <!---------------------------------------------------------------------------------------------------------------------->
       <!----------------------------------------------Portfolio-------------------------------------------->
-      <div class="containerPortfolio">
+      <div class="containerPortfolio" id="portfolio">
         <div class="portfolio">
           <div class="portfolioHeader">
             <h1>LATEST WORKS</h1>
@@ -197,13 +197,19 @@
             <a href="https://hunter2001.github.io/portfolio/">
               <div class="thisSite works"></div>
             </a>
+            <a href="https://hunter2001.github.io/guessNumber/">
+              <div class="guessNumber works"></div>
+            </a>
+            <a href="https://hunter2001.github.io/pigGame/">
+              <div class="pigGame works"></div>
+            </a>
           </div>
         </div>
       </div>
       <!----------------------------------------------End of Portfolio-------------------------------------------->
       <!---------------------------------------------------------------------------------------------------------------------->
       <!----------------------------------------------Contact-------------------------------------------->
-      <div class="containerContact">
+      <div class="containerContact" id="contact">
         <div class="contact">
           <div class="contactHeader">
             <h1>GET IN TOUCH</h1>
